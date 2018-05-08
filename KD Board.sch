@@ -7917,14 +7917,15 @@ Note the THM package has the ground pads on both sides of the PCB so that the ma
 <junction x="-10.16" y="58.42"/>
 <wire x1="-10.16" y1="58.42" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="58.42" x2="-22.86" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="-2.54" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-2.54" x2="43.18" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="THR"/>
-<wire x1="40.64" y1="48.26" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="48.26" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="15.24" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
-<junction x="40.64" y="15.24"/>
-<wire x1="40.64" y1="-2.54" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
+<junction x="43.18" y="15.24"/>
+<wire x1="43.18" y1="-2.54" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -7966,12 +7967,12 @@ Note the THM package has the ground pads on both sides of the PCB so that the ma
 <pinref part="IC1" gate="A" pin="R"/>
 <wire x1="20.32" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="53.34" x2="5.08" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="V+"/>
-<wire x1="43.18" y1="96.52" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
-<junction x="43.18" y="96.52"/>
+<wire x1="45.72" y1="96.52" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
+<junction x="45.72" y="96.52"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="96.52" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
@@ -7993,6 +7994,19 @@ Note the THM package has the ground pads on both sides of the PCB so that the ma
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,40.64,43.18,IC1,V+,VCC,,,"/>
+<approved hash="104,1,20.32,43.18,IC1,GND,0,,,"/>
+<approved hash="113,1,-9.06466,21.59,C1,,,,,"/>
+<approved hash="113,1,6.17534,41.91,C2,,,,,"/>
+<approved hash="113,1,49.7103,27.94,R1,,,,,"/>
+<approved hash="113,1,49.7103,76.2,R2,,,,,"/>
+<approved hash="113,1,70.0303,73.66,R3,,,,,"/>
+<approved hash="113,1,70.0303,40.64,R4,,,,,"/>
+<approved hash="113,1,69.0651,82.55,LED1,,,,,"/>
+<approved hash="113,1,69.0651,49.53,LED2,,,,,"/>
+<approved hash="113,1,98.4021,66.04,U$1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
